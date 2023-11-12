@@ -1,0 +1,23 @@
+Converting GML script: ${project_dir}\objects\obj_blackhole\Step_0.gml
+Converted builtin - line 8: view_xview = view_center_x - view_wview / 2 -> __view_set( e__VW.XView, 0, view_center_x - view_wview / 2 )
+Converted builtin - line 9: view_yview = view_center_y - view_hview / 2 -> __view_set( e__VW.YView, 0, view_center_y - view_hview / 2 )
+Converted builtin - line 6: view_wview = view_wport * zoom -> __view_set( e__VW.WView, 0, view_wport * zoom )
+Converted builtin - line 7: view_hview = view_hport * zoom -> __view_set( e__VW.HView, 0, view_hport * zoom )
+Converted builtin - line 8: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 9: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 6: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 7: view_hport -> __view_get( e__VW.HPort, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_blackhole\Draw_0.gml
+Converted builtin - line 9: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 10: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 9: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 10: view_hview -> __view_get( e__VW.HView, 0 )
+
+Game speed set to 30
+Added compatibility script 'texture/texture_set_repeat.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
